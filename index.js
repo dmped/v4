@@ -95,7 +95,6 @@ function shutdown(signal) {
   console.log(chalk.red('-----------------------------------------------'));
   console.log(chalk.yellow('  🛑 Status: ') + chalk.bold('Shutting Down'));
   console.log(chalk.yellow('  🕒 Time: ') + chalk.bold(new Date().toLocaleTimeString()));
-  console.log(chalk.yellow("zane");
   console.log(chalk.red('-----------------------------------------------'));
   console.log(chalk.blue('  Performing graceful exit...'));
   server.close(() => {
